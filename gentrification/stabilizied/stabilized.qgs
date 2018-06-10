@@ -1,0 +1,1692 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.15">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="stabilized20180610183753653" source="file:///Users/avigailvantu/Documents/GitHub/housing_complaints-/gentrification/stabilizied%20/joined%20(1).csv?type=csv&amp;xField=lon&amp;yField=lat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" name="stabilized">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="stab_suboro20180610184415980" source="/Users/avigailvantu/Desktop/stab_suboro.csv" name="stab_suboro">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180610184137738" source="MultiPoint?uuid=e9447f57-238d-49f8-a18e-091251f1792d&amp;crs=EPSG:4326&amp;field=borough:string&amp;field=ucbbl:integer&amp;field=2007uc:integer&amp;field=2007est:string&amp;field=2007dhcr:string&amp;field=2007abat:string&amp;field=2008uc:integer&amp;field=2008est:string&amp;field=2008dhcr:string&amp;field=2008abat:string&amp;field=2009uc:integer&amp;field=2009est:string&amp;field=2009dhcr:string&amp;field=2009abat:string&amp;field=2010uc:integer&amp;field=2010est:string&amp;field=2010dhcr:string&amp;field=2010abat:string&amp;field=2011uc:integer&amp;field=2011est:string&amp;field=2011dhcr:string&amp;field=2011abat:string&amp;field=2012uc:integer&amp;field=2012est:string&amp;field=2012dhcr:string&amp;field=2012abat:string&amp;field=2013uc:integer&amp;field=2013est:string&amp;field=2013dhcr:string&amp;field=2013abat:string&amp;field=2014uc:integer&amp;field=2014est:string&amp;field=2014dhcr:string&amp;field=2014abat:string&amp;field=2015uc:integer&amp;field=2015est:string&amp;field=2015dhcr:string&amp;field=2015abat:string&amp;field=2016uc:integer&amp;field=2016est:string&amp;field=2016dhcr:string&amp;field=2016abat:string&amp;field=cd:integer&amp;field=ct2010:double&amp;field=cb2010:integer&amp;field=council:integer&amp;field=zipcode:integer&amp;field=address:string&amp;field=ownername:string&amp;field=numbldgs:integer&amp;field=numfloors:double&amp;field=unitsres:integer&amp;field=unitstotal:integer&amp;field=yearbuilt:integer&amp;field=condono:integer&amp;field=lon:double&amp;field=lat:double&amp;field=SubboroID:integer&amp;field=Shape_Leng:double&amp;field=Shape_Area:double&amp;field=SubboroNam:string" name="Intersection">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Untitled20180610183705350" source="/Users/avigailvantu/Desktop/Untitled.shp" name="Untitled">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>feet</units>
+    <extent>
+      <xmin>894993.57000274653546512</xmin>
+      <ymin>116193.84682672150665894</ymin>
+      <xmax>1067517.69417230784893036</xmax>
+      <ymax>276716.29279318294720724</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=lcc +lat_1=40.66666666666666 +lat_2=41.03333333333333 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+        <srsid>100000</srsid>
+        <srid>0</srid>
+        <authid>USER:100000</authid>
+        <description> * Generated CRS (+proj=lcc +lat_1=40.66666666666666 +lat_2=41.03333333333333 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+        <projectionacronym>lcc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20180610184137738"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subborough_boundaries20180610183441945"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subborough_boundaries20180610183442153"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="stabilized20180610183753653"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Subborough_boundaries20180610183442137"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Untitled20180610183705350"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>Untitled20180610183705350</item>
+      <item>stabilized20180610183753653</item>
+      <item>memory_20180610184137738</item>
+      <item>stab_suboro20180610184415980</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="stabilized" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="stabilized20180610183753653" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="stab_suboro" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="stab_suboro20180610184415980" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Intersection" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180610184137738" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Untitled" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Untitled20180610183705350" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Untitled20180610183705350</id>
+      <datasource>../../../../../Desktop/Untitled.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Untitled</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="SubboroID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Leng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SubboroNam">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="194,116,211,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>SubboroID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="SubboroID" index="0" name=""/>
+        <alias field="Shape_Leng" index="1" name=""/>
+        <alias field="Shape_Area" index="2" name=""/>
+        <alias field="SubboroNam" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="SubboroID"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Leng"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Area"/>
+          <column width="-1" hidden="0" type="field" name="SubboroNam"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="SubboroID" expression=""/>
+        <default field="Shape_Leng" expression=""/>
+        <default field="Shape_Area" expression=""/>
+        <default field="SubboroNam" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-74.24689999999999657</xmin>
+        <ymin>40.50939999999999941</ymin>
+        <xmax>-73.70149999999999579</xmax>
+        <ymax>40.91270000000000095</ymax>
+      </extent>
+      <id>memory_20180610184137738</id>
+      <datasource>memory?geometry=MultiPoint&amp;crs=EPSG:4326&amp;field=borough:string(255,0)&amp;field=ucbbl:integer(-1,0)&amp;field=2007uc:integer(-1,0)&amp;field=2007est:string(255,0)&amp;field=2007dhcr:string(255,0)&amp;field=2007abat:string(255,0)&amp;field=2008uc:integer(-1,0)&amp;field=2008est:string(255,0)&amp;field=2008dhcr:string(255,0)&amp;field=2008abat:string(255,0)&amp;field=2009uc:integer(-1,0)&amp;field=2009est:string(255,0)&amp;field=2009dhcr:string(255,0)&amp;field=2009abat:string(255,0)&amp;field=2010uc:integer(-1,0)&amp;field=2010est:string(255,0)&amp;field=2010dhcr:string(255,0)&amp;field=2010abat:string(255,0)&amp;field=2011uc:integer(-1,0)&amp;field=2011est:string(255,0)&amp;field=2011dhcr:string(255,0)&amp;field=2011abat:string(255,0)&amp;field=2012uc:integer(-1,0)&amp;field=2012est:string(255,0)&amp;field=2012dhcr:string(255,0)&amp;field=2012abat:string(255,0)&amp;field=2013uc:integer(-1,0)&amp;field=2013est:string(255,0)&amp;field=2013dhcr:string(255,0)&amp;field=2013abat:string(255,0)&amp;field=2014uc:integer(-1,0)&amp;field=2014est:string(255,0)&amp;field=2014dhcr:string(255,0)&amp;field=2014abat:string(255,0)&amp;field=2015uc:integer(-1,0)&amp;field=2015est:string(255,0)&amp;field=2015dhcr:string(255,0)&amp;field=2015abat:string(255,0)&amp;field=2016uc:integer(-1,0)&amp;field=2016est:string(255,0)&amp;field=2016dhcr:string(255,0)&amp;field=2016abat:string(255,0)&amp;field=cd:integer(-1,0)&amp;field=ct2010:double(20,5)&amp;field=cb2010:integer(-1,0)&amp;field=council:integer(-1,0)&amp;field=zipcode:integer(-1,0)&amp;field=address:string(255,0)&amp;field=ownername:string(255,0)&amp;field=numbldgs:integer(-1,0)&amp;field=numfloors:double(20,5)&amp;field=unitsres:integer(-1,0)&amp;field=unitstotal:integer(-1,0)&amp;field=yearbuilt:integer(-1,0)&amp;field=condono:integer(-1,0)&amp;field=lon:double(20,5)&amp;field=lat:double(20,5)&amp;field=SubboroID:integer(-1,0)&amp;field=Shape_Leng:double(20,5)&amp;field=Shape_Area:double(20,5)&amp;field=SubboroNam:string(255,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Intersection</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="borough">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ucbbl">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cd">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ct2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="council">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zipcode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="address">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ownername">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="numbldgs">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="numfloors">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unitsres">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unitstotal">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="yearbuilt">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="condono">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lon">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SubboroID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Leng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SubboroNam">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="150,126,101,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ownername</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="borough" index="0" name=""/>
+        <alias field="ucbbl" index="1" name=""/>
+        <alias field="2007uc" index="2" name=""/>
+        <alias field="2007est" index="3" name=""/>
+        <alias field="2007dhcr" index="4" name=""/>
+        <alias field="2007abat" index="5" name=""/>
+        <alias field="2008uc" index="6" name=""/>
+        <alias field="2008est" index="7" name=""/>
+        <alias field="2008dhcr" index="8" name=""/>
+        <alias field="2008abat" index="9" name=""/>
+        <alias field="2009uc" index="10" name=""/>
+        <alias field="2009est" index="11" name=""/>
+        <alias field="2009dhcr" index="12" name=""/>
+        <alias field="2009abat" index="13" name=""/>
+        <alias field="2010uc" index="14" name=""/>
+        <alias field="2010est" index="15" name=""/>
+        <alias field="2010dhcr" index="16" name=""/>
+        <alias field="2010abat" index="17" name=""/>
+        <alias field="2011uc" index="18" name=""/>
+        <alias field="2011est" index="19" name=""/>
+        <alias field="2011dhcr" index="20" name=""/>
+        <alias field="2011abat" index="21" name=""/>
+        <alias field="2012uc" index="22" name=""/>
+        <alias field="2012est" index="23" name=""/>
+        <alias field="2012dhcr" index="24" name=""/>
+        <alias field="2012abat" index="25" name=""/>
+        <alias field="2013uc" index="26" name=""/>
+        <alias field="2013est" index="27" name=""/>
+        <alias field="2013dhcr" index="28" name=""/>
+        <alias field="2013abat" index="29" name=""/>
+        <alias field="2014uc" index="30" name=""/>
+        <alias field="2014est" index="31" name=""/>
+        <alias field="2014dhcr" index="32" name=""/>
+        <alias field="2014abat" index="33" name=""/>
+        <alias field="2015uc" index="34" name=""/>
+        <alias field="2015est" index="35" name=""/>
+        <alias field="2015dhcr" index="36" name=""/>
+        <alias field="2015abat" index="37" name=""/>
+        <alias field="2016uc" index="38" name=""/>
+        <alias field="2016est" index="39" name=""/>
+        <alias field="2016dhcr" index="40" name=""/>
+        <alias field="2016abat" index="41" name=""/>
+        <alias field="cd" index="42" name=""/>
+        <alias field="ct2010" index="43" name=""/>
+        <alias field="cb2010" index="44" name=""/>
+        <alias field="council" index="45" name=""/>
+        <alias field="zipcode" index="46" name=""/>
+        <alias field="address" index="47" name=""/>
+        <alias field="ownername" index="48" name=""/>
+        <alias field="numbldgs" index="49" name=""/>
+        <alias field="numfloors" index="50" name=""/>
+        <alias field="unitsres" index="51" name=""/>
+        <alias field="unitstotal" index="52" name=""/>
+        <alias field="yearbuilt" index="53" name=""/>
+        <alias field="condono" index="54" name=""/>
+        <alias field="lon" index="55" name=""/>
+        <alias field="lat" index="56" name=""/>
+        <alias field="SubboroID" index="57" name=""/>
+        <alias field="Shape_Leng" index="58" name=""/>
+        <alias field="Shape_Area" index="59" name=""/>
+        <alias field="SubboroNam" index="60" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6619239">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="borough"/>
+          <column width="-1" hidden="0" type="field" name="ucbbl"/>
+          <column width="-1" hidden="0" type="field" name="2007uc"/>
+          <column width="-1" hidden="0" type="field" name="2007est"/>
+          <column width="-1" hidden="0" type="field" name="2007dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2007abat"/>
+          <column width="-1" hidden="0" type="field" name="2008uc"/>
+          <column width="-1" hidden="0" type="field" name="2008est"/>
+          <column width="-1" hidden="0" type="field" name="2008dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2008abat"/>
+          <column width="-1" hidden="0" type="field" name="2009uc"/>
+          <column width="-1" hidden="0" type="field" name="2009est"/>
+          <column width="-1" hidden="0" type="field" name="2009dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2009abat"/>
+          <column width="-1" hidden="0" type="field" name="2010uc"/>
+          <column width="-1" hidden="0" type="field" name="2010est"/>
+          <column width="-1" hidden="0" type="field" name="2010dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2010abat"/>
+          <column width="-1" hidden="0" type="field" name="2011uc"/>
+          <column width="-1" hidden="0" type="field" name="2011est"/>
+          <column width="-1" hidden="0" type="field" name="2011dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2011abat"/>
+          <column width="-1" hidden="0" type="field" name="2012uc"/>
+          <column width="-1" hidden="0" type="field" name="2012est"/>
+          <column width="-1" hidden="0" type="field" name="2012dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2012abat"/>
+          <column width="-1" hidden="0" type="field" name="2013uc"/>
+          <column width="-1" hidden="0" type="field" name="2013est"/>
+          <column width="-1" hidden="0" type="field" name="2013dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2013abat"/>
+          <column width="-1" hidden="0" type="field" name="2014uc"/>
+          <column width="-1" hidden="0" type="field" name="2014est"/>
+          <column width="-1" hidden="0" type="field" name="2014dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2014abat"/>
+          <column width="-1" hidden="0" type="field" name="2015uc"/>
+          <column width="-1" hidden="0" type="field" name="2015est"/>
+          <column width="-1" hidden="0" type="field" name="2015dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2015abat"/>
+          <column width="-1" hidden="0" type="field" name="2016uc"/>
+          <column width="-1" hidden="0" type="field" name="2016est"/>
+          <column width="-1" hidden="0" type="field" name="2016dhcr"/>
+          <column width="-1" hidden="0" type="field" name="2016abat"/>
+          <column width="-1" hidden="0" type="field" name="cd"/>
+          <column width="-1" hidden="0" type="field" name="ct2010"/>
+          <column width="-1" hidden="0" type="field" name="cb2010"/>
+          <column width="-1" hidden="0" type="field" name="council"/>
+          <column width="-1" hidden="0" type="field" name="zipcode"/>
+          <column width="-1" hidden="0" type="field" name="address"/>
+          <column width="-1" hidden="0" type="field" name="ownername"/>
+          <column width="-1" hidden="0" type="field" name="numbldgs"/>
+          <column width="-1" hidden="0" type="field" name="numfloors"/>
+          <column width="-1" hidden="0" type="field" name="unitsres"/>
+          <column width="-1" hidden="0" type="field" name="unitstotal"/>
+          <column width="-1" hidden="0" type="field" name="yearbuilt"/>
+          <column width="-1" hidden="0" type="field" name="condono"/>
+          <column width="-1" hidden="0" type="field" name="lon"/>
+          <column width="-1" hidden="0" type="field" name="lat"/>
+          <column width="-1" hidden="0" type="field" name="SubboroID"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Leng"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Area"/>
+          <column width="-1" hidden="0" type="field" name="SubboroNam"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="borough" expression=""/>
+        <default field="ucbbl" expression=""/>
+        <default field="2007uc" expression=""/>
+        <default field="2007est" expression=""/>
+        <default field="2007dhcr" expression=""/>
+        <default field="2007abat" expression=""/>
+        <default field="2008uc" expression=""/>
+        <default field="2008est" expression=""/>
+        <default field="2008dhcr" expression=""/>
+        <default field="2008abat" expression=""/>
+        <default field="2009uc" expression=""/>
+        <default field="2009est" expression=""/>
+        <default field="2009dhcr" expression=""/>
+        <default field="2009abat" expression=""/>
+        <default field="2010uc" expression=""/>
+        <default field="2010est" expression=""/>
+        <default field="2010dhcr" expression=""/>
+        <default field="2010abat" expression=""/>
+        <default field="2011uc" expression=""/>
+        <default field="2011est" expression=""/>
+        <default field="2011dhcr" expression=""/>
+        <default field="2011abat" expression=""/>
+        <default field="2012uc" expression=""/>
+        <default field="2012est" expression=""/>
+        <default field="2012dhcr" expression=""/>
+        <default field="2012abat" expression=""/>
+        <default field="2013uc" expression=""/>
+        <default field="2013est" expression=""/>
+        <default field="2013dhcr" expression=""/>
+        <default field="2013abat" expression=""/>
+        <default field="2014uc" expression=""/>
+        <default field="2014est" expression=""/>
+        <default field="2014dhcr" expression=""/>
+        <default field="2014abat" expression=""/>
+        <default field="2015uc" expression=""/>
+        <default field="2015est" expression=""/>
+        <default field="2015dhcr" expression=""/>
+        <default field="2015abat" expression=""/>
+        <default field="2016uc" expression=""/>
+        <default field="2016est" expression=""/>
+        <default field="2016dhcr" expression=""/>
+        <default field="2016abat" expression=""/>
+        <default field="cd" expression=""/>
+        <default field="ct2010" expression=""/>
+        <default field="cb2010" expression=""/>
+        <default field="council" expression=""/>
+        <default field="zipcode" expression=""/>
+        <default field="address" expression=""/>
+        <default field="ownername" expression=""/>
+        <default field="numbldgs" expression=""/>
+        <default field="numfloors" expression=""/>
+        <default field="unitsres" expression=""/>
+        <default field="unitstotal" expression=""/>
+        <default field="yearbuilt" expression=""/>
+        <default field="condono" expression=""/>
+        <default field="lon" expression=""/>
+        <default field="lat" expression=""/>
+        <default field="SubboroID" expression=""/>
+        <default field="Shape_Leng" expression=""/>
+        <default field="Shape_Area" expression=""/>
+        <default field="SubboroNam" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "ownername", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>stab_suboro20180610184415980</id>
+      <datasource>../../../../../Desktop/stab_suboro.csv</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>stab_suboro</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="borough">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ucbbl">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cd">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ct2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="council">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zipcode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="address">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ownername">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="numbldgs">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="numfloors">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unitsres">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unitstotal">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="yearbuilt">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="condono">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lon">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SubboroID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Leng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SubboroNam">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="borough" index="0" name=""/>
+        <alias field="ucbbl" index="1" name=""/>
+        <alias field="2007uc" index="2" name=""/>
+        <alias field="2007est" index="3" name=""/>
+        <alias field="2007dhcr" index="4" name=""/>
+        <alias field="2007abat" index="5" name=""/>
+        <alias field="2008uc" index="6" name=""/>
+        <alias field="2008est" index="7" name=""/>
+        <alias field="2008dhcr" index="8" name=""/>
+        <alias field="2008abat" index="9" name=""/>
+        <alias field="2009uc" index="10" name=""/>
+        <alias field="2009est" index="11" name=""/>
+        <alias field="2009dhcr" index="12" name=""/>
+        <alias field="2009abat" index="13" name=""/>
+        <alias field="2010uc" index="14" name=""/>
+        <alias field="2010est" index="15" name=""/>
+        <alias field="2010dhcr" index="16" name=""/>
+        <alias field="2010abat" index="17" name=""/>
+        <alias field="2011uc" index="18" name=""/>
+        <alias field="2011est" index="19" name=""/>
+        <alias field="2011dhcr" index="20" name=""/>
+        <alias field="2011abat" index="21" name=""/>
+        <alias field="2012uc" index="22" name=""/>
+        <alias field="2012est" index="23" name=""/>
+        <alias field="2012dhcr" index="24" name=""/>
+        <alias field="2012abat" index="25" name=""/>
+        <alias field="2013uc" index="26" name=""/>
+        <alias field="2013est" index="27" name=""/>
+        <alias field="2013dhcr" index="28" name=""/>
+        <alias field="2013abat" index="29" name=""/>
+        <alias field="2014uc" index="30" name=""/>
+        <alias field="2014est" index="31" name=""/>
+        <alias field="2014dhcr" index="32" name=""/>
+        <alias field="2014abat" index="33" name=""/>
+        <alias field="2015uc" index="34" name=""/>
+        <alias field="2015est" index="35" name=""/>
+        <alias field="2015dhcr" index="36" name=""/>
+        <alias field="2015abat" index="37" name=""/>
+        <alias field="2016uc" index="38" name=""/>
+        <alias field="2016est" index="39" name=""/>
+        <alias field="2016dhcr" index="40" name=""/>
+        <alias field="2016abat" index="41" name=""/>
+        <alias field="cd" index="42" name=""/>
+        <alias field="ct2010" index="43" name=""/>
+        <alias field="cb2010" index="44" name=""/>
+        <alias field="council" index="45" name=""/>
+        <alias field="zipcode" index="46" name=""/>
+        <alias field="address" index="47" name=""/>
+        <alias field="ownername" index="48" name=""/>
+        <alias field="numbldgs" index="49" name=""/>
+        <alias field="numfloors" index="50" name=""/>
+        <alias field="unitsres" index="51" name=""/>
+        <alias field="unitstotal" index="52" name=""/>
+        <alias field="yearbuilt" index="53" name=""/>
+        <alias field="condono" index="54" name=""/>
+        <alias field="lon" index="55" name=""/>
+        <alias field="lat" index="56" name=""/>
+        <alias field="SubboroID" index="57" name=""/>
+        <alias field="Shape_Leng" index="58" name=""/>
+        <alias field="Shape_Area" index="59" name=""/>
+        <alias field="SubboroNam" index="60" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="20">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="borough" expression=""/>
+        <default field="ucbbl" expression=""/>
+        <default field="2007uc" expression=""/>
+        <default field="2007est" expression=""/>
+        <default field="2007dhcr" expression=""/>
+        <default field="2007abat" expression=""/>
+        <default field="2008uc" expression=""/>
+        <default field="2008est" expression=""/>
+        <default field="2008dhcr" expression=""/>
+        <default field="2008abat" expression=""/>
+        <default field="2009uc" expression=""/>
+        <default field="2009est" expression=""/>
+        <default field="2009dhcr" expression=""/>
+        <default field="2009abat" expression=""/>
+        <default field="2010uc" expression=""/>
+        <default field="2010est" expression=""/>
+        <default field="2010dhcr" expression=""/>
+        <default field="2010abat" expression=""/>
+        <default field="2011uc" expression=""/>
+        <default field="2011est" expression=""/>
+        <default field="2011dhcr" expression=""/>
+        <default field="2011abat" expression=""/>
+        <default field="2012uc" expression=""/>
+        <default field="2012est" expression=""/>
+        <default field="2012dhcr" expression=""/>
+        <default field="2012abat" expression=""/>
+        <default field="2013uc" expression=""/>
+        <default field="2013est" expression=""/>
+        <default field="2013dhcr" expression=""/>
+        <default field="2013abat" expression=""/>
+        <default field="2014uc" expression=""/>
+        <default field="2014est" expression=""/>
+        <default field="2014dhcr" expression=""/>
+        <default field="2014abat" expression=""/>
+        <default field="2015uc" expression=""/>
+        <default field="2015est" expression=""/>
+        <default field="2015dhcr" expression=""/>
+        <default field="2015abat" expression=""/>
+        <default field="2016uc" expression=""/>
+        <default field="2016est" expression=""/>
+        <default field="2016dhcr" expression=""/>
+        <default field="2016abat" expression=""/>
+        <default field="cd" expression=""/>
+        <default field="ct2010" expression=""/>
+        <default field="cb2010" expression=""/>
+        <default field="council" expression=""/>
+        <default field="zipcode" expression=""/>
+        <default field="address" expression=""/>
+        <default field="ownername" expression=""/>
+        <default field="numbldgs" expression=""/>
+        <default field="numfloors" expression=""/>
+        <default field="unitsres" expression=""/>
+        <default field="unitstotal" expression=""/>
+        <default field="yearbuilt" expression=""/>
+        <default field="condono" expression=""/>
+        <default field="lon" expression=""/>
+        <default field="lat" expression=""/>
+        <default field="SubboroID" expression=""/>
+        <default field="Shape_Leng" expression=""/>
+        <default field="Shape_Area" expression=""/>
+        <default field="SubboroNam" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>stabilized20180610183753653</id>
+      <datasource>file:./joined%20(1).csv?type=csv&amp;xField=lon&amp;yField=lat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>stabilized</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="borough">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ucbbl">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2007abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2008abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2009abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2010abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2011abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2012abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2013abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2014abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2015abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016uc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016dhcr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="2016abat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cd">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ct2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="council">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zipcode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="address">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ownername">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="numbldgs">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="numfloors">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unitsres">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unitstotal">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="yearbuilt">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="condono">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lon">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="13,208,45,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ownername</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="borough" index="0" name=""/>
+        <alias field="ucbbl" index="1" name=""/>
+        <alias field="2007uc" index="2" name=""/>
+        <alias field="2007est" index="3" name=""/>
+        <alias field="2007dhcr" index="4" name=""/>
+        <alias field="2007abat" index="5" name=""/>
+        <alias field="2008uc" index="6" name=""/>
+        <alias field="2008est" index="7" name=""/>
+        <alias field="2008dhcr" index="8" name=""/>
+        <alias field="2008abat" index="9" name=""/>
+        <alias field="2009uc" index="10" name=""/>
+        <alias field="2009est" index="11" name=""/>
+        <alias field="2009dhcr" index="12" name=""/>
+        <alias field="2009abat" index="13" name=""/>
+        <alias field="2010uc" index="14" name=""/>
+        <alias field="2010est" index="15" name=""/>
+        <alias field="2010dhcr" index="16" name=""/>
+        <alias field="2010abat" index="17" name=""/>
+        <alias field="2011uc" index="18" name=""/>
+        <alias field="2011est" index="19" name=""/>
+        <alias field="2011dhcr" index="20" name=""/>
+        <alias field="2011abat" index="21" name=""/>
+        <alias field="2012uc" index="22" name=""/>
+        <alias field="2012est" index="23" name=""/>
+        <alias field="2012dhcr" index="24" name=""/>
+        <alias field="2012abat" index="25" name=""/>
+        <alias field="2013uc" index="26" name=""/>
+        <alias field="2013est" index="27" name=""/>
+        <alias field="2013dhcr" index="28" name=""/>
+        <alias field="2013abat" index="29" name=""/>
+        <alias field="2014uc" index="30" name=""/>
+        <alias field="2014est" index="31" name=""/>
+        <alias field="2014dhcr" index="32" name=""/>
+        <alias field="2014abat" index="33" name=""/>
+        <alias field="2015uc" index="34" name=""/>
+        <alias field="2015est" index="35" name=""/>
+        <alias field="2015dhcr" index="36" name=""/>
+        <alias field="2015abat" index="37" name=""/>
+        <alias field="2016uc" index="38" name=""/>
+        <alias field="2016est" index="39" name=""/>
+        <alias field="2016dhcr" index="40" name=""/>
+        <alias field="2016abat" index="41" name=""/>
+        <alias field="cd" index="42" name=""/>
+        <alias field="ct2010" index="43" name=""/>
+        <alias field="cb2010" index="44" name=""/>
+        <alias field="council" index="45" name=""/>
+        <alias field="zipcode" index="46" name=""/>
+        <alias field="address" index="47" name=""/>
+        <alias field="ownername" index="48" name=""/>
+        <alias field="numbldgs" index="49" name=""/>
+        <alias field="numfloors" index="50" name=""/>
+        <alias field="unitsres" index="51" name=""/>
+        <alias field="unitstotal" index="52" name=""/>
+        <alias field="yearbuilt" index="53" name=""/>
+        <alias field="condono" index="54" name=""/>
+        <alias field="lon" index="55" name=""/>
+        <alias field="lat" index="56" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="5">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="borough" expression=""/>
+        <default field="ucbbl" expression=""/>
+        <default field="2007uc" expression=""/>
+        <default field="2007est" expression=""/>
+        <default field="2007dhcr" expression=""/>
+        <default field="2007abat" expression=""/>
+        <default field="2008uc" expression=""/>
+        <default field="2008est" expression=""/>
+        <default field="2008dhcr" expression=""/>
+        <default field="2008abat" expression=""/>
+        <default field="2009uc" expression=""/>
+        <default field="2009est" expression=""/>
+        <default field="2009dhcr" expression=""/>
+        <default field="2009abat" expression=""/>
+        <default field="2010uc" expression=""/>
+        <default field="2010est" expression=""/>
+        <default field="2010dhcr" expression=""/>
+        <default field="2010abat" expression=""/>
+        <default field="2011uc" expression=""/>
+        <default field="2011est" expression=""/>
+        <default field="2011dhcr" expression=""/>
+        <default field="2011abat" expression=""/>
+        <default field="2012uc" expression=""/>
+        <default field="2012est" expression=""/>
+        <default field="2012dhcr" expression=""/>
+        <default field="2012abat" expression=""/>
+        <default field="2013uc" expression=""/>
+        <default field="2013est" expression=""/>
+        <default field="2013dhcr" expression=""/>
+        <default field="2013abat" expression=""/>
+        <default field="2014uc" expression=""/>
+        <default field="2014est" expression=""/>
+        <default field="2014dhcr" expression=""/>
+        <default field="2014abat" expression=""/>
+        <default field="2015uc" expression=""/>
+        <default field="2015est" expression=""/>
+        <default field="2015dhcr" expression=""/>
+        <default field="2015abat" expression=""/>
+        <default field="2016uc" expression=""/>
+        <default field="2016est" expression=""/>
+        <default field="2016dhcr" expression=""/>
+        <default field="2016abat" expression=""/>
+        <default field="cd" expression=""/>
+        <default field="ct2010" expression=""/>
+        <default field="cb2010" expression=""/>
+        <default field="council" expression=""/>
+        <default field="zipcode" expression=""/>
+        <default field="address" expression=""/>
+        <default field="ownername" expression=""/>
+        <default field="numbldgs" expression=""/>
+        <default field="numfloors" expression=""/>
+        <default field="unitsres" expression=""/>
+        <default field="unitstotal" expression=""/>
+        <default field="yearbuilt" expression=""/>
+        <default field="condono" expression=""/>
+        <default field="lon" expression=""/>
+        <default field="lat" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>Untitled20180610183705350</value>
+        <value>stabilized20180610183753653</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
